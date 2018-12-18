@@ -1,0 +1,19 @@
+{
+  "name": "saurabh-kamble",
+  "version": "1.0.7",
+  "description": "creating package for testing",
+  "main": "package-json.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saurabh kamble",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"//major.minor.patch
+                        //^ will update to the latest version
+                        // ~ will update the patch only
+  }
+}
